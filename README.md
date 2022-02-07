@@ -11,7 +11,7 @@ A bit of functionality to get custom fields of a ClickUp Task.  I created this f
 2. Task ID can be copied directly from the ClickUp task 3 dots sub-menu (How I tested it)
 
 ## Setup Instructions
-1. Place this folder or code where you want to access on the web i.e. "[your-domain].com/clickup"
+1. Place this folder or code where you want to access on the web i.e. "[your-domain.com]/clickup"
 2. In ClickUp: Go to space "Settings"->"Integrations"->"ClickUp API"
 3. Click "+ Create an App", then Give it a name and use the naked domain of where this code will live as the "Redirect URL(s)", then click "Create App"
 4. Open (in a new tab) the "API Documentation" link above the app you just created
@@ -28,7 +28,8 @@ A bit of functionality to get custom fields of a ClickUp Task.  I created this f
 
 Just change the following in the "Set up action" step and leave the rest as their default values.
 
-URL: [your-domain.com]/clickup/fields/ (or wherever you put the code)
-Query String Params: 
-  access_token : [your access token]
-  task_id : [the_task id]
+> **URL**: [your-domain.com]/clickup/fields/ (or wherever you put the code)
+> 
+> **Query String Params**: 
+> - access_token : [your access token]
+> - task_id : [the_task id]
