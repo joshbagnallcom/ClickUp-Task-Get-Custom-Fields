@@ -6,6 +6,10 @@ A bit of functionality to get custom fields of a ClickUp Task.  I created this f
 2. ClickUp "access_token"
 3. ClickUp "task_id"
 
+## Notes
+1. Does not seem to return formula fields
+2. Task ID can be copied directly from the ClickUp task 3 dots sub-menu (How I tested it)
+
 ## Setup Instructions
 1. Place this folder or code where you want to access on the web i.e. "[your-domain].com/clickup"
 2. In ClickUp: Go to space "Settings"->"Integrations"->"ClickUp API"
